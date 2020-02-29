@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header-navbar {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header-navbar h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header-navbar h1 .seo {
+    color: #d9dcd6;
+}
+
+.header-navbar div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* added nav */
+.header-navbar div nav ul {
+    list-style-type: none;
+}
+/* added nav */
+.header-navbar div nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* added article section div main */
+p article section div main {
+    font-size: 16px;
+}
+/*changed the name of this class from 'hero' to 'figure'.*/
+.figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* <main> begins here */
+/* <section> semantic begins here */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* <section> first <article> */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* <section> second <article> */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* <section> third <article> */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* This <img> is a float-left just like search engine optimization <img> above. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* <aside> tag begins here */
+.sidebar {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* <aside> first <article> 
+renamed class 'lead-generation'*/
+.lead-generation {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.lead-generation h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.lead-generation img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* <aside> second <article> 
+renamed class brand-awareness*/
+.brand-awareness {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.brand-awareness h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.brand-awareness img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+
+/* <aside> third <article> 
+renamed class cost-management*/
+.cost-management {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.cost-management h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.cost-management img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* <footer> tag begins here */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
